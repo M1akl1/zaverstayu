@@ -1,0 +1,165 @@
+html {
+    background-color: white;
+    font-family: "Montserrat";
+}
+
+div.wide-container {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+span.header-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-logo {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+ul.hl {
+    list-style: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+}
+
+a {
+    text-decoration: none;
+    color: #533738;
+}
+
+.link-container a:link,
+.link-container a:visited{
+    color: #533738;
+    background-color: #CC8B86;
+    text-decoration: none;
+}
+
+.link-container a:hover {
+    background-color: #b57b7b;
+    color: #533738;
+    text-decoration: none;
+}
+
+.link-container a:active {
+    background-color: #faaaaa;
+    color: #533738;
+    text-decoration: none;
+}
+
+.container {
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #533738;
+    font-weight: 400;
+}
+
+.container h1 {
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.container p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+.container a {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        background-color: #CC8B86;
+    }
+
+.about-page {
+    font-family: 'Montserrat';
+    color: #533738;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about-page h2 {
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+    .about-page p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+section.achievment-container h1 {
+    line-height: 62px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+figcaption {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+section.our-works-container a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #533738;
+}
+
+.team-container dt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+section.work-container {
+    background: url('ellipse-1.svg') no-repeat 206px 90px, url('ellipse-1.svg') no-repeat 511px 90px, url('ellipse-1.svg') no-repeat 817px 90px, url('ellipse-1.svg') no-repeat 1122px 90px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    background-color: #E2C4BA;
+}
+
+.work-container ol {
+    list-style: none;
+    text-align: center;
+}
+
+.work-container li::before {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}

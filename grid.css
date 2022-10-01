@@ -69,31 +69,224 @@ section.container {
     margin-left: 184.08px;
 }
 
-.container div.link-container {
-    display: flex;
-    width: 309.14px;
-    height: 74px;
-    margin-top: 21px;
-    margin-left: 182px;
-    text-align: center;
-    justify-content: space-around
-}
-
 .container a {
-    width: 309.14px;
-    height: 49px;
+    display: block;
+    width: 175.35px;
+    margin: 0;
+    margin-left: 182px;
+    margin-top: 21px;
     padding-top: 25px;
+    padding-bottom: 24px;
+    padding-left: 67.91px;
+    padding-right: 65.88px;
+    text-align: center;
 }
 
-section.achievment-container h1 {
-    display: inline;
+section.about-page {
+    width: 1400px;
+    height: 576px;
+    margin: 0 auto;
+    padding-top: 65px;
+    background-color: #EFE6E4;
+}
+
+.about-page-container {
+    display: flex;
+    width: 1036px;
+    height: 526px;
+    margin: 0 auto;
+}
+
+.about-page h2 {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 136px;
+    height: 50px;
+}
+
+.about-page img {
+    padding-top: 40px;
+}
+
+.about-page p {
+    margin: 0;
+    margin-left: 61.69px;
+    margin-top: 40px;
+}
+
+.achievment-page {
+    width: 1400px;
+    height: 273px;
+    margin: 0 auto;
+}
+
+.experience-container {
+    display: grid;
+}
+
+.experience-container h1 {
+    margin: 0;
+}
+
+.experience-container ul:first-of-type {
+    margin-left: 261px;
+    margin-right: 223px;
+    margin-top: 85px;
+    justify-content: space-between;
+}
+
+.experience-container ul:last-of-type {
+    margin-left: 182px;
+    margin-right: 180px;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.experience-container ul:last-of-type li:nth-child(2) {
+    padding-right: 40px;
+}
+
+section.achievment-page ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .experience-container ul li {
-    display: inline
+    display: inline;
 }
 
-section.work-container {
+section.our-works-page {
+    width: 1400px;
+    height: 1229px;
+    margin: 0 auto;
+    background-color: #EFE6E4;
+}
+
+.our-works-page h2 {
+    margin: 0;
+    padding-top: 65px;
+    margin-left: 99px;
+    margin-bottom: 40px;
+}
+
+.our-works-container {
+    display: flex;
+    width: 1200px;
+    height: 932px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.our-works-container figure {
+    margin: 0;
+}
+
+.our-works-container figure:first-of-type {
+    width: 488px;
+    height: 451px;
+    margin-right: 20px;
+    background-image: url('image-1.png');
+}
+
+.work-item {
+    display: flex;
+    width: 488px;
+    height: 451px;
+    opacity: 1;
+    background: rgba(100, 72, 69, 0.8);
+}
+
+.work-item:hover {
+    display: flex;
+    width: 488px;
+    height: 451px;
+    opacity: 0;
+}
+
+.our-works-container figure:first-of-type figcaption span {
+    display: block;
+    width: 270px;
+    height: 93px;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+.our-works-container figure:first-of-type figcaption {
+    width: 418px;
+    height: 243px;
+    margin: auto;
+    margin-top: 86px;
+}
+
+.our-works-container img:nth-of-type(2) {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.our-works-container img:last-of-type {
+    margin-top: 30px;
+}
+
+.our-works-page a {
+    display: block;
+    width: 294px;
+    height: 37px;
+    margin-left: 552px;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.team-page {
+    width: 1400px;
+    height: 618px;
+    margin: 0 auto;
+}
+
+.team-page h2 {
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.team-page dl,
+.team-page dd {
+    margin: 0;
+}
+
+.team-container {
+    width: 1400px;
+    height: 518px;
+    padding-top: 40px;
+}
+
+.team-container dl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-1 {
+    display: inline-block;
+    width: 320px;
+    height: 443px;
+    margin-left: 192px;
+}
+
+.team-2 {
+    display: inline-block;
+    width: 320px;
+    height: 413px;
+}
+
+.team-3 {
+    display: inline-block;
+    width: 320px;
+    height: 413px;
+    margin-right: 192px;
+}
+
+section.work-page {
     display: grid;
     justify-content: center;
     width: 1399px;
@@ -101,13 +294,13 @@ section.work-container {
     margin: 0 auto;
 }
 
-div.work-dcontainer {
+div.work-container {
     display: grid;
     width: 1200px;
     height: 300px;
 }
 
-    div.work-dcontainer h2 {
+    div.work-container h2 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -116,7 +309,7 @@ div.work-dcontainer {
         height: 65px;
     }
 
-.work-container ol {
+.work-page ol {
     width: 1200px;
     display: flex;
     align-items: stretch;
@@ -126,55 +319,212 @@ div.work-dcontainer {
     margin-top: 115px;
 }
 
-    .work-container ol li:not(:first-of-type) {
+    .work-page ol li:not(:first-of-type) {
         margin-left: 25px;
     }
 
-section.work-container li:first-of-type {
+section.work-page li:first-of-type {
     width: 285px;
     height: 120px;
 }
 
-section.work-container li:nth-of-type(2) {
+section.work-page li:nth-of-type(2) {
     width: 285px;
     height: 90px;
 }
 
-section.work-container li:nth-of-type(3) {
+section.work-page li:nth-of-type(3) {
     width: 285px;
     height: 90px;
 }
 
-section.work-container li:last-of-type {
+section.work-page li:last-of-type {
     width: 285px;
     height: 120px;
 }
 
 
-.work-container li:nth-of-type(1)::before {
+.work-page li:nth-of-type(1)::before {
     content: '1';
     position: relative;
     left: 113px;
     bottom: 70px;
 }
 
-.work-container li:nth-of-type(2)::before {
+.work-page li:nth-of-type(2)::before {
     content: '2';
     position: relative;
     left: 95px;
     bottom: 70px;
 }
 
-.work-container li:nth-of-type(3)::before {
+.work-page li:nth-of-type(3)::before {
     content: '3';
     position: relative;
     left: 130px;
     bottom: 70px;
 }
 
-.work-container li:nth-of-type(4)::before {
+.work-page li:nth-of-type(4)::before {
     content: '4';
     position: relative;
     left: 96px;
     bottom: 70px;
 }
+
+.reviews-page {
+    width: 1400px;
+    height: 788px;
+    margin: 0 auto;
+    background-color: #EFE6E4;
+}
+
+.reviews-page h2 {
+    margin: 0;
+    padding-top: 65px;
+    text-align: center;
+}
+
+.reviews-container {
+    width: 1036px;
+    height: 608px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 72px 892px 72px;
+}
+
+.reviews-container button {
+    width: 72px;
+    height: 72px;
+    cursor: pointer;
+    margin-top: 268px;
+    padding: 0;
+    border: 0px;
+    border-radius: 50%;
+    background: white url('arrow-2.svg') no-repeat center center;
+    background-size: 32px auto;
+    background-color: #CC8B86;
+}
+
+.reviews-container button:last-of-type {
+    transform: scale(-1, 1)
+}
+
+.review {
+    display: grid;
+    grid-template-columns: 407px 407px;
+    column-gap: 20px;
+    margin-left: 29px;
+    margin-right: 29px;
+    height: 608px;
+}
+
+.review blockquote {
+    margin: 0;
+    margin-bottom: 19px;
+}
+
+.review p {
+    margin: 0px;
+}
+
+.review div:first-of-type {
+    margin-top: 131px;
+}
+
+.review div:last-of-type {
+    margin-top: 40px;
+    height: 568px;
+}
+
+.review div:last-of-type img:first-of-type {
+    margin-bottom: 20px;
+}
+
+.application-page {
+    width: 1400px;
+    height: 624px;
+    margin: 0 auto;
+}
+
+.application-page h2 {
+    margin: 0;
+    margin-top: 50px;
+}
+
+.application-page p {
+    margin: 0;
+    margin-top: 24px;
+}
+
+.application-page form {
+    margin-top: 44px;
+}
+
+.item-1 {
+    height: 35px;
+    margin-bottom: 35px;
+}
+
+.item-1 input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid white;
+    transform: rotate(0.11deg);
+    width: 508px;
+    height: 35px;
+}
+
+.item-1 label {
+    display: inline;
+}
+
+.item-2 {
+    height: 35px;
+    margin-bottom: 31px;
+}
+
+.item-2 input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid white;
+    transform: rotate(0.11deg);
+    width: 508px;
+    height: 35px;
+}
+
+.application-button input {
+    width: 309.14px;
+    height: 74px;
+}
+
+.application-container {
+    display: grid;
+    grid-template-columns: 508px 590px;
+    column-gap: 20px;
+    width: 1118px;
+    height: 624px;
+    margin: 0 auto;
+}
+
+.page-footer {
+    width: 1400px;
+    height: 104px;
+    margin: 0 auto;
+    background-color: #EFE6E4;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 100px 161px 42px 451px 379px 167px 100px;
+}
+
+.footer-container a,
+.footer-container address,
+.footer-container span {
+    display: inline-block;
+    margin-top: 37px;
+}
+
